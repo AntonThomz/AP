@@ -1,4 +1,4 @@
-const facebook = require('./extractor/facebook');
+const facebook = require('./go/facebook');
 
 module.exports = async (req, res) => {
     const { url } = req.query;
